@@ -39,11 +39,11 @@ public class GradeBookSwitch
 		Scanner input = new Scanner (System.in);
 		int grade;
 
-		System.out.printf("%s\n%s\n%s\n$s\n",
+		System.out.printf("%s\n%s\n%s\n%s\n",
 			"Enter the integer grades in the range 0-100",
 			"Type the end-of-file indicator to terminate input:",
-			"On Linux/MacOS type <Ctrl> d then press Enter", 
-			"On Windows type <Ctrl> z then press Enter");
+			"On Linux/MacOS type <Ctrl> d then press Enter",
+			"On Windows type <Ctrl> z then press Enter" );
 
 		while ( input.hasNext())
 		{
