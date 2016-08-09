@@ -9,7 +9,7 @@ public class RollDie
     {
         Random randomNumbers = new Random();
 
-        int[] freq = new int[6]; // by default initialized to 0?
+        int[] freq = new int[6]; // by default initialized to 0
         
         int face;
 
