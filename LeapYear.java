@@ -1,6 +1,6 @@
 import java.util.GregorianCalendar;
 import java.util.Scanner;
-import java.util.Calendar;
+//import java.util.Calendar;
 
 public class LeapYear
 {
@@ -10,7 +10,7 @@ public class LeapYear
         return gc.isLeapYear(year);
     }
 
-    /*
+    /*  Alternative implementation
     public static boolean isLeapYear(int year)
     {
         Calendar cal = Calendar.getInstance();
